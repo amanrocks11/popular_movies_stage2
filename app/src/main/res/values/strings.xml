@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="detail_view_title">MovieDetail</string>
+    <string name="sort_by_popular">Sort By Popular</string>
+    <string name="sort_by_rating">Sort By Rating</string>
+    <string name="internet_error_message">We can not find a data connection. Please check your internet connection and try again!
+    </string>
+    <string name="image_view_content_desc">Movie Poster</string>
+</resources>
