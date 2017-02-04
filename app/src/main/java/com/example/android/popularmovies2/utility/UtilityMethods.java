@@ -6,11 +6,6 @@ import android.net.NetworkInfo;
 
 public class UtilityMethods {
 
-    /*
-    Method to checks whether Device is connected or trying to connect to Internet.
-    params-> Context
-    Returns-> a boolean variable determining  whether device is -connected or trying to connect- or can not connect to internet.
-     */
 
     public static boolean isNetworkAvailable(Context c)
     {

@@ -34,9 +34,6 @@ import com.example.android.popularmovies2.data.Movie_Contract;
 import com.example.android.popularmovies2.data.MovieDbHelper;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class FavoriteDetailFragment extends Fragment {
 
 

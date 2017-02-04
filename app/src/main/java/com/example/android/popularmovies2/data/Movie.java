@@ -1,8 +1,6 @@
 package com.example.android.popularmovies2.data;
 
-/**
- * Created by aman on 04-02-2017.
- */
+
 
 import java.io.Serializable;
 

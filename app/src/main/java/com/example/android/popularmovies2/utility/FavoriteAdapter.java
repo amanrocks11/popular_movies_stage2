@@ -13,9 +13,7 @@ import com.squareup.picasso.Picasso;
 import com.example.android.popularmovies2.data.Movie_Contract;
 import com.example.android.popularmovies2.R;
 
-/**
- * Created by APnaturals on 7/4/2016.
- */
+
 public class FavoriteAdapter extends CursorAdapter {
     LayoutInflater inflater;
     Context iContext;

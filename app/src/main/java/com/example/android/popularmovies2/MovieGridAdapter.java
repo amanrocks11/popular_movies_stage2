@@ -13,9 +13,7 @@ import java.util.List;
 
 import com.example.android.popularmovies2.data.Movie;
 
-/**
- * Created by APnaturals on 7/1/2016.
- */
+
 public class MovieGridAdapter extends ArrayAdapter<Movie> {
 
 
