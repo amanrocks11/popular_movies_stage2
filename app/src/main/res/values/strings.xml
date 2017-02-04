@@ -6,4 +6,5 @@
     <string name="internet_error_message">We can not find a data connection. Please check your internet connection and try again!
     </string>
     <string name="image_view_content_desc">Movie Poster</string>
+    <string name="action_settings">Settings</string>
 </resources>
