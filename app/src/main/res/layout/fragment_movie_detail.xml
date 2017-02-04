@@ -15,8 +15,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/text_Title"
             android:fontFamily="sans-serif-condensed"
-            android:background="#03A9F4"
-            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorTextWhite"
             android:layout_gravity="center_horizontal"
             android:textAppearance="?android:textAppearanceLarge"
             android:padding="10dp"/>
@@ -48,7 +48,8 @@
                     android:layout_margin="2dp"
                     android:layout_marginBottom="5dp"
                     android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"/>
 
                 <TextView
                     android:id="@+id/rating"
@@ -57,13 +58,15 @@
                     android:layout_margin="2dp"
                     android:layout_marginBottom="2dp"
                     android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryText"
                     android:textStyle="italic" />
 
                 <Button
                     android:id="@+id/favoriteMov"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp" />
+                    android:layout_margin="2dp"
+                    android:background="@color/colorAccent"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -71,12 +74,14 @@
             android:id="@+id/plot_synop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorSecondaryText"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Trailers:"
+            android:text="@string/trailers"
+            android:textColor="@color/colorPrimaryText"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"/>
@@ -89,7 +94,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reviews:"
+            android:text="@string/reviews"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"/>
